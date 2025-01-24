@@ -1,15 +1,60 @@
 :root{
-  margin: 5% 13%;
+  background-image: url("./3626052.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ padding: 5% 15%;
+ color: white;
+ font-family: "Open Sans" , "Roboto", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+
 }
 a{
   text-decoration: none;
   color: inherit;
+
 }
 .header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.pic-container{
+  width: 7%;
+}
+.prof-pic{
+  width: 100%;
+  border-radius: 35%;
 }
 .links{
   display: flex;
-  gap: 20px;
+  gap: 30px;
+  color: rgb(236, 227, 239);
+}
+.home{
+  padding:5% 15%;
+  font-size: 1.3rem;
+}
+h4{
+  color: rgb(94 234 212);
+  margin-bottom: 7px;
+}
+.home h1{
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.home > .name{
+  color: rgb(236, 227, 239);
+}
+.home > .title{
+  color: rgb(151, 130, 158);
+}
+.home > p{
+  line-height: 1.9rem;
+  color: rgb(236, 227, 239);
+}
+.home p a{
+  color: rgb(94 234 212);
 }
