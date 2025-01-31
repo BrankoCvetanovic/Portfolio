@@ -1,5 +1,16 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 export default function Home() {
+  const [isActiveArrow, setActiveArrow] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveArrow((prev) => !prev);
+    }, 700);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="home">
       <h4>Hi, my name is</h4>
@@ -13,6 +24,12 @@ export default function Home() {
         ideas to life, focusing on delivering interactive and visually appealing
         web experiences.
       </p>
+      <Link to="/contact" className="arrow-container">
+        Contact me
+        <span className={isActiveArrow ? "arrow arrow-active" : "arrow"}>
+          &#8594;
+        </span>
+      </Link>
     </div>
   );
 }

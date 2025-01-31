@@ -1,5 +1,5 @@
 :root{
-  background-image: url("./3626052.jpg");
+  background-image: url("./5570834.jpg");
   background-repeat: no-repeat;
   background-size: cover;
  padding: 5% 15%;
@@ -7,7 +7,26 @@
  font-family: "Open Sans" , "Roboto", sans-serif;
  font-weight: 400;
  font-style: normal;
+}
+*{
+  box-sizing:border-box;
+  
+}
+.circle {
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px white;
+  pointer-events: none;
+  position: fixed;
+  top: -10rem;
+  left: -10rem;
+  height: 4rem;
+  width: 4rem;
+  transition: transform 0.4s, background 0.4s;
+}
 
+.circle.big {
+  transform: scale(0.2);
 }
 a{
   text-decoration: none;
@@ -20,6 +39,7 @@ a{
   align-items: center;
   font-size: 1.2rem;
 }
+
 .pic-container{
   width: 7%;
 }
@@ -32,6 +52,20 @@ a{
   gap: 30px;
   color: rgb(236, 227, 239);
 }
+.links a{
+}
+.links a::after{
+  display: block;
+  content: "";
+  width: 0;
+  margin: auto;
+  height: 1px;
+  background:  rgb(236, 227, 239);
+  transition: width 0.3s;
+}
+.links a:hover::after{
+  width: 100%;
+}
 .home{
   padding:5% 15%;
   font-size: 1.3rem;
@@ -39,9 +73,10 @@ a{
 h4{
   color: rgb(94 234 212);
   margin-bottom: 7px;
+  font-size: 1.3rem;
 }
 .home h1{
-  font-size: 3rem;
+  font-size: 2.6rem;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -53,8 +88,24 @@ h4{
 }
 .home > p{
   line-height: 1.9rem;
+  font-size: 1.1rem;
   color: rgb(236, 227, 239);
 }
 .home p a{
   color: rgb(94 234 212);
+}
+.arrow-container{
+  font-size: 1.1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.arrow{
+  font-size: 1.6rem;
+  position: absolute;
+  left:105px;
+  transition: ease-in-out 0.7s;
+}
+.arrow-active{
+  left: 125px;
 }
