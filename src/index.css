@@ -66,6 +66,22 @@ a{
 .links a:hover::after{
   width: 100%;
 }
+.links button{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  width: 50px;
+  padding: 7px;
+  border: 1px rgba(236, 227, 239, 0.337) solid;
+  border-radius: 500px;
+}
+.links button:hover{
+  box-shadow: 0 0 7px rgba(236, 227, 239);
+}
 .home{
   padding:5% 15%;
   font-size: 1.3rem;
@@ -99,6 +115,8 @@ h4{
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 150px;
+
 }
 .arrow{
   font-size: 1.6rem;
@@ -108,4 +126,7 @@ h4{
 }
 .arrow-active{
   left: 125px;
+}
+.about{
+  padding-top:7%;
 }
