@@ -52,8 +52,6 @@ a{
   gap: 30px;
   color: rgb(236, 227, 239);
 }
-.links a{
-}
 .links a::after{
   display: block;
   content: "";
@@ -99,7 +97,7 @@ h4{
 .home > .name{
   color: rgb(236, 227, 239);
 }
-.home > .title{
+.title{
   color: rgb(151, 130, 158);
 }
 .home > p{
@@ -115,18 +113,30 @@ h4{
   position: relative;
   display: flex;
   align-items: center;
-  max-width: 150px;
+  max-width: fit-content;
 
 }
 .arrow{
   font-size: 1.6rem;
   position: absolute;
-  left:105px;
+  left:106%;
   transition: ease-in-out 0.7s;
 }
 .arrow-active{
-  left: 125px;
+  left: calc(100% + 25px);
 }
 .about{
-  padding-top:7%;
+  padding-top:2%;
+}
+.about h1{
+  padding-left: 40px;
+}
+.about-container{
+  padding: 30px 100px;
+}
+.about ul{
+  list-style-type: "✔ ";
+}
+.about li::marker{
+  color:rgb(151, 130, 158);
 }

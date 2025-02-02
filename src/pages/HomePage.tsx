@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+
 export default function Home() {
   const [isActiveArrow, setActiveArrow] = useState(false);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,19 +17,16 @@ export default function Home() {
 
   return (
     <div className="home">
-      <h4>Hi, my name is</h4>
+      <h4>{t("greetings")}</h4>
       <h1 className="name">Branko Cvetanović.</h1>
-      <h1 className="title">I am web developer.</h1>
+      <h1 className="title">{t("home1")}</h1>
       <p>
-        I am a passionate and dedicated front-end developer with a strong desire
-        to create beautiful and functional web applications. I am constantly
-        learning and experimenting with new technologies to improve my skills. I
-        spend my days creating <Link to={"/projects"}>projects</Link> that bring
-        ideas to life, focusing on delivering interactive and visually appealing
-        web experiences.
+        {t("home-main")}
+        <Link to={"/projects"}>{t("home-projects")}</Link>
+        {t("home-main2")}
       </p>
       <Link to="/contact" className="arrow-container">
-        Contact me
+        {t("home-contact")}
         <span className={isActiveArrow ? "arrow arrow-active" : "arrow"}>
           &#8594;
         </span>
