@@ -21,11 +21,11 @@ export default function Header() {
         {location.pathname != "/" ? (
           <NavLink to={"/"}>{t("home")}</NavLink>
         ) : null}
-        {location.pathname != "/about" ? (
-          <NavLink to={"/about"}>{t("about")}</NavLink>
-        ) : null}
         {location.pathname != "/projects" ? (
           <NavLink to={"/projects"}>{t("projects")}</NavLink>
+        ) : null}
+        {location.pathname != "/about" ? (
+          <NavLink to={"/about"}>{t("about")}</NavLink>
         ) : null}
         {location.pathname != "/contact" ? (
           <NavLink to={"/contact"}>{t("contact")}</NavLink>
