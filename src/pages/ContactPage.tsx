@@ -1,11 +1,14 @@
 import React from "react";
 import { Mail, Phone, LinkedinIcon } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Contact: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="contact-container">
-      <h1>Kontakt</h1>
-      <p>Slobodno me kontaktirajte putem sledećih kanala:</p>
+      <h1>{t("c-h1")}</h1>
+      <p>{t("c-p")}</p>
 
       <div className="contact-info">
         <a href="cbranko01@gmail.com" className="contact-item">

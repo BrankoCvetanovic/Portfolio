@@ -6,7 +6,7 @@
     "projects": "Projects",
     "greetings":"Hi, my name is",
     "home1": "I am web developer.",
-    "home-main": "I am a passionate and dedicated front-end developer with a strong desire to create beautiful and functional web applications. I am constantly learning and experimenting with new technologies to improve my skills. I spend my days creating ",
+    "home-main": "I am a young, passionate and dedicated front-end developer with a strong desire to create beautiful and functional web applications. I am constantly learning and experimenting with new technologies to improve my skills. I spend my days creating ",
     "home-main2":"that bring ideas to life, focusing on delivering interactive and visually appealing web experiences.",
     "home-projects": "projects ",
     "home-contact":"Contact me",
@@ -30,7 +30,10 @@
     "a-l9":"Regular Expressions (RegEx) – Pattern matching and text processing",
     "a-l10":"GitHub & GitLab – Version control and collaboration tools",
     "a-title3":"My Approach",
-    "a-p7":"I believe that continuous learning and collaboration are the keys to success in software development. I'm always eager to experiment with new technologies, improve my skills, and contribute to building high-quality, user-friendly web applications."
-
-
+    "a-p7":"I believe that continuous learning and collaboration are the keys to success in software development. I'm always eager to experiment with new technologies, improve my skills, and contribute to building high-quality, user-friendly web applications.",
+    "c-h1":"Contact",
+    "c-p":"Feel free to contact me through the following channels:",
+    "p-about":"About",
+    "p-links": "Links",
+    "p-live": "Live Preview"
 }

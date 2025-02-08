@@ -6,7 +6,7 @@
     "projects": "Projekti",
     "greetings":"Ćao, zovem se",
     "home1": "Ja sam web developer.",
-    "home-main": "Ja sam strastven i posvećen front-end programer sa snažnom željom da kreiram lepe i funkcionalne veb aplikacije. Konstantno učim i eksperimentišem sa novim tehnologijama kako bih unapredio svoje veštine. Svoje dane provodim radeći na ",
+    "home-main": "Ja sam mlad, strastven i posvećen front-end programer sa snažnom željom da kreiram lepe i funkcionalne veb aplikacije. Konstantno učim i eksperimentišem sa novim tehnologijama kako bih unapredio svoje veštine. Svoje dane provodim radeći na ",
     "home-main2": "koji oživljavaju moje ideje, fokusiran sam na isporuku interaktivnih i vizuelno privlačnih veb iskustava.",
     "home-projects": "projektima ",
     "home-contact":"Kontaktiraj me",
@@ -30,5 +30,10 @@
     "a-l9":"Regular Expressions (RegEx) – Rad sa obrascima i obradom teksta",
     "a-l10":"GitHub & GitLab – Verziona kontrola i alati za saradnju",
     "a-title3":"Moj pristup",
-    "a-p7":"Verujem da su kontinuirano učenje i timska saradnja ključ uspeha u razvoju softvera. Uvek sam spreman da istražujem nove tehnologije, unapređujem svoje veštine i doprinesem kreiranju kvalitetnih i intuitivnih web aplikacija."
+    "a-p7":"Verujem da su kontinuirano učenje i timska saradnja ključ uspeha u razvoju softvera. Uvek sam spreman da istražujem nove tehnologije, unapređujem svoje veštine i doprinesem kreiranju kvalitetnih i intuitivnih web aplikacija.",
+    "c-h1":"Kontakt",
+    "c-p":"Slobodno me kontaktirajte putem sledećih kanala",
+    "p-about":"Opis",
+    "p-links": "Linkovi",
+    "p-live": "Sajt Uzivo"
 }
