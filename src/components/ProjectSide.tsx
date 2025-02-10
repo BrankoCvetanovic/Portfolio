@@ -10,8 +10,19 @@ const ProjectSide: FC<{
   aboutSr: string;
   linkLive: string;
   linkGit: string;
+  note: string | null;
   onClickClose: () => void;
-}> = ({ img, info, name, onClickClose, about, aboutSr, linkLive, linkGit }) => {
+}> = ({
+  img,
+  info,
+  name,
+  onClickClose,
+  about,
+  aboutSr,
+  linkLive,
+  linkGit,
+  note,
+}) => {
   const [isActiveArrow, setActiveArrow] = useState(false);
 
   useEffect(() => {
@@ -46,6 +57,7 @@ const ProjectSide: FC<{
             &#8594;
           </span>
         </div>
+        {note !== null ? <div className="note">{note}</div> : null}
       </div>
       <div onClick={onClickClose} className="project-side-shade"></div>
     </>

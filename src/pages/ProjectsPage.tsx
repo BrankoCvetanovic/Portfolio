@@ -12,6 +12,7 @@ type Project = {
   aboutSr: string;
   linkLive: string;
   linkGit: string;
+  note: string | null;
 };
 
 export default function Projects() {
@@ -60,6 +61,7 @@ export default function Projects() {
           aboutSr={currentProject!.aboutSr}
           linkLive={currentProject!.linkLive}
           linkGit={currentProject!.linkGit}
+          note={currentProject!.note}
         />
       ) : null}
     </div>

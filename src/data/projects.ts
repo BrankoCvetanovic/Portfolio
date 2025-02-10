@@ -13,8 +13,9 @@ const projects = [
       "HomeStyle is a front-end application that showcases all products of a company specializing in kitchen and shelf manufacturing.",
     aboutSr:
       "HomeStyle je front-end aplikacija koja prikazuje sve proizvode kompanije specijalizovane za proizvodnju kuhinja i polica.",
-    linkLive: "https://retrostyle.rs",
+    linkLive: "https://www.retrostyle.rs/",
     linkGit: "https://github.com/BrankoCvetanovic/home-style",
+    note: null,
   },
   {
     img: boutech,
@@ -26,6 +27,7 @@ const projects = [
       "BouTech je full-stack aplikacija koja korisnicima nudi besprekorno iskustvo kupovine širokog asortimana tehnoloških proizvoda. Sa posebnim stranicama za kućne aparate, IT opremu, televizore i telefone, korisnici mogu lako pregledati i kupiti željene artikle direktno u aplikaciji.",
     linkLive: "https://boutechsrb.netlify.app/",
     linkGit: "https://github.com/BrankoCvetanovic/BouTech",
+    note: "Unfortunately, you have to wait for loading for about 20 seconds.",
   },
   {
     img: bt,
@@ -37,6 +39,7 @@ const projects = [
       "Social Media Platform Better Twitter je društvena mreža inspirisana Twitter-om, koja korisnicima omogućava autentifikaciju, objavljivanje teksta i slika, deljenje sadržaja i lajkovanje objava.",
     linkLive: "https://bettertwitter-5e352.web.app/",
     linkGit: "https://github.com/BrankoCvetanovic/better-twitter",
+    note: null,
   },
   {
     img: flags,
@@ -48,6 +51,7 @@ const projects = [
       "Aplikacija koja pruža podatke o zemljama širom sveta putem API-ja. Korisnici mogu pristupiti ključnim informacijama kao što su geografija, glavni gradovi, populacija, jezici i valute. Ima intuitivan interfejs za jednostavno pretraživanje.",
     linkLive: "https://brankocvetanovic.github.io/REST-countries-API/",
     linkGit: "https://github.com/BrankoCvetanovic/REST-countries-API",
+    note: null,
   },
   {
     img: portfolio,
@@ -59,6 +63,7 @@ const projects = [
       "Dobrodošli u moj portfolio! Ovaj sajt prikazuje moj rad kao front-end developera, uključujući projekte koji ističu moje veštine u kreiranju modernih, interaktivnih i korisnički prijatnih web aplikacija. Slobodno istražite, pogledajte moje projekte i kontaktirajte me za saradnju ili pitanja!",
     linkLive: "https://brankocv.in.rs/",
     linkGit: "https://github.com/BrankoCvetanovic/Portfolio",
+    note: null,
   },
 ];
 
